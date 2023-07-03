@@ -68,53 +68,24 @@ body::before {
   min-height: 100vh;
 }
 
-.greeting {
-  animation: fadeIn;
-  animation-duration: 1s;
-}
-
 .tagline {
   font-weight: 400;
   font-style: italic;
 }
 
-.vector {
-  position: absolute;
-  width: 12vh;
-  opacity: 0.8;
-}
-
 .vector-1 {
-  top: 15vh;
-  left: 18vw;
-  animation: fadeInDown;
-  animation-duration: 1s;
+  width: 7.5vw;
+  position: absolute;
+  z-index: -1;
+  top: 22vh;
+  left: 20vw;
 }
 .vector-2 {
-  bottom: 12vh;
-  right: 15vw;
-  animation: fadeInRight;
-  animation-duration: 2s;
-}
-
-.vector-3 {
-  top: 20vh;
+  width: 6vw;
+  position: absolute;
+  z-index: -1;
+  bottom: 22vh;
   right: 18vw;
-  animation: fadeInDown;
-  animation-duration: 1.5s;
-}
-
-.vector-4 {
-  bottom: 8vh;
-  animation: fadeInUp;
-  animation-duration: 1s;
-}
-
-.vector-5 {
-  bottom: 17vh;
-  left: 20vw;
-  animation: fadeInLeft;
-  animation-duration: 1.5s;
 }
 
 /*  */

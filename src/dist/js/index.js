@@ -3,7 +3,7 @@
 window.addEventListener("scroll", () => {
   const nav = document.querySelector(".navbar");
   const offSet = window.pageYOffset;
-  const trigger = window.innerHeight * 0.15;
+  const trigger = window.innerHeight * 0.4;
 
   if (offSet >= trigger) {
     nav.classList.remove("invisible");
