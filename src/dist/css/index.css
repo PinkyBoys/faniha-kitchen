@@ -1,0 +1,120 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("../fonts/Lato-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+/* ==================== */
+/* Animated */
+
+/* ==================== */
+.debug {
+  height: 1000vh;
+}
+
+body {
+  font-family: "Lato";
+  position: relative;
+}
+
+body::before {
+  content: "";
+  min-height: 100vh;
+  background-image: url("../../background/background.webp");
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.navbar.navbar-expand-lg .nav-link {
+  color: black;
+}
+
+.navbar.navbar-expand-lg .nav-link::after {
+  content: "";
+  height: 3px;
+  border-radius: 5px;
+  width: 80%;
+  display: block;
+  background-color: coral;
+  margin: 4px auto 0;
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+
+.navbar.navbar.navbar-expand-lg .nav-link:hover::after {
+  content: "";
+  transform: scaleX(1);
+}
+
+/* Header */
+
+.header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.greeting {
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+.tagline {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.vector {
+  position: absolute;
+  width: 12vh;
+  opacity: 0.8;
+}
+
+.vector-1 {
+  top: 15vh;
+  left: 18vw;
+  animation: fadeInDown;
+  animation-duration: 1s;
+}
+.vector-2 {
+  bottom: 12vh;
+  right: 15vw;
+  animation: fadeInRight;
+  animation-duration: 2s;
+}
+
+.vector-3 {
+  top: 20vh;
+  right: 18vw;
+  animation: fadeInDown;
+  animation-duration: 1.5s;
+}
+
+.vector-4 {
+  bottom: 8vh;
+  animation: fadeInUp;
+  animation-duration: 1s;
+}
+
+.vector-5 {
+  bottom: 17vh;
+  left: 20vw;
+  animation: fadeInLeft;
+  animation-duration: 1.5s;
+}
+
+/*  */
