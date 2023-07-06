@@ -3,6 +3,10 @@
   .vector-2 {
     width: 12vw;
   }
+
+  .footer .copyright {
+    left: 25%;
+  }
 }
 /* // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { ... }

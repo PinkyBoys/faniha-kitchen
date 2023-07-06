@@ -26,32 +26,32 @@ const productList = [
   },
   {
     name: "Piscok - Maco",
-    price: "",
+    price: 12000,
     img: "./src/productImg/cthProduct.jpg",
   },
   {
     name: "Piscok - Tico",
-    price: "",
+    price: 12000,
     img: "./src/productImg/cthProduct.jpg",
   },
   {
     name: "Lumpia Tahu",
-    price: "",
+    price: 2500,
     img: "./src/productImg/cthProduct.jpg",
   },
   {
     name: "Lumpia Telur",
-    price: "",
+    price: 2500,
     img: "./src/productImg/cthProduct.jpg",
   },
   {
     name: "Tahu HAH",
-    price: "",
+    price: 3000,
     img: "./src/productImg/cthProduct.jpg",
   },
   {
     name: "Tahu Bakso",
-    price: "",
+    price: 2500,
     img: "./src/productImg/cthProduct.jpg",
   },
 ];
