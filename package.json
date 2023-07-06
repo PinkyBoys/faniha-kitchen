@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.0",
+    "feather-icons": "^4.29.0",
     "wowjs": "^1.1.3"
   }
 }

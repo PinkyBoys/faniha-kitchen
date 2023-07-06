@@ -88,6 +88,13 @@ body::before {
   right: 18vw;
 }
 
+/* main */
+
+.main {
+  padding: 10vh 0;
+  margin: 5vh 0;
+}
+
 /* card */
 
 .container #product {
@@ -95,4 +102,30 @@ body::before {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2vw;
+}
+
+/* footer */
+
+.footer {
+  height: 20vh;
+  padding: 4vh 0;
+}
+
+.footer a {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  align-items: center;
+  transition: margin-left 0.2s linear;
+}
+
+.footer a:hover {
+  position: relative;
+  margin-left: 0.8rem;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 43%;
 }

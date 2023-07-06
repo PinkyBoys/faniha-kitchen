@@ -17,4 +17,8 @@ window.addEventListener("scroll", () => {
 
 new WOW().init();
 
-// Test quest
+// feather icons
+
+feather.replace();
+
+//
