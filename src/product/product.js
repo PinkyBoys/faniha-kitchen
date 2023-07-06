@@ -95,3 +95,5 @@ productList.forEach((product) => {
 
   productCardContainer.appendChild(card);
 });
+
+window.addEventListener("load");

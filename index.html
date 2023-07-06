@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./src/dist/css/index.css" />
     <link rel="stylesheet" href="./src/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./src/wowjs/css/libs/animate.css" />
+    <link rel="stylesheet" href="./src/dist/css/mediaQueries.css" />
     <title>Document</title>
   </head>
   <body>
@@ -13,11 +14,24 @@
       <nav class="navbar navbar-expand-lg bg-light fixed-top invisible">
         <div class="container-fluid">
           <a href="#" class="navbar-brand">Aku Kan Ikan</a>
-          <ul class="navbar-nav">
-            <li class="nav-item"><a href="#" class="nav-link fw-bold">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold">Sub Item</a></li>
-            <li class="nav-item"><a href="#" class="nav-link fw-bold">Sub Item</a></li>
-          </ul>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link fw-bold">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link fw-bold">Sub Item</a></li>
+              <li class="nav-item"><a href="#" class="nav-link fw-bold">Sub Item</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
       <header class="header">
