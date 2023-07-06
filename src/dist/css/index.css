@@ -90,7 +90,7 @@ body::before {
 
 /* card */
 
-#product {
+.container #product {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
