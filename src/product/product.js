@@ -2,57 +2,57 @@ const productList = [
   {
     name: "Nasi Kuning - Ayam",
     price: 12000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Nasi Kuning - Ikan",
     price: 12000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Nasi Kuning - Telur",
     price: 12000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Nasi - Chiken Katsu",
     price: 14000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Nasi - Chicken Curry",
     price: 14000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Piscok - Maco",
     price: 12000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Piscok - Tico",
     price: 12000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Lumpia Tahu",
     price: 2500,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Lumpia Telur",
     price: 2500,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Tahu HAH",
     price: 3000,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
   {
     name: "Tahu Bakso",
     price: 2500,
-    img: "./src/productImg/cthProduct.jpg",
+    img: "../../productImg/cthProduct.jpg",
   },
 ];
 
@@ -87,13 +87,17 @@ productList.forEach((product) => {
   priceProduct.className = "card-text";
   priceProduct.textContent = typeof product.price === "number" ? formattedPrice : "Unset";
 
+  const btnPesan = document.createElement("button");
+  btnPesan.textContent = "Pesan";
+  btnPesan.className = "btn btn-primary";
+  btnPesan.value = product.name;
+
   cardBody.appendChild(nameProduct);
   cardBody.appendChild(priceProduct);
+  cardBody.appendChild(btnPesan);
 
   card.appendChild(img);
   card.appendChild(cardBody);
 
   productCardContainer.appendChild(card);
 });
-
-window.addEventListener("load");

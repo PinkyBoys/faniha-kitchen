@@ -4,6 +4,9 @@
     width: 12vw;
   }
 
+  .footer {
+    height: 25vh;
+  }
   .footer .copyright {
     left: 25%;
   }
