@@ -15,8 +15,9 @@
 /* Animated */
 
 /* ==================== */
+
 .debug {
-  height: 1000vh;
+  /* height: 1000vh; */
 }
 
 body {
@@ -101,6 +102,30 @@ body::before {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2vw;
+}
+
+#about .row {
+  padding: 5vh 0;
+}
+
+#about .row p {
+  font-size: 1.2rem;
+}
+
+.row .left,
+.row .right {
+  display: flex;
+  align-items: center;
+}
+
+.row .left img,
+.row .right img {
+  width: 18rem;
+}
+
+.row .left p,
+.row .right p {
+  text-align: justify;
 }
 
 .card .card-body {
