@@ -105,7 +105,8 @@ body::before {
 }
 
 #about .row {
-  padding: 5vh 0;
+  padding: 10vh 0;
+  margin: 10vh 0 0;
 }
 
 #about .row p {
